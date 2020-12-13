@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent bejelentkez = new Intent(MainActivity.this, LoggedInActivity.class);
                 startActivity(bejelentkez);
                 finish();
+
             }
         }
     });
