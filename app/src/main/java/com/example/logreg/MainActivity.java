@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
          startActivity(regisztral);
          finish();
 
+
     }
 });
     loginBtn.setOnClickListener(new View.OnClickListener() {
@@ -42,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 editor.commit();
                 Intent bejelentkez = new Intent(MainActivity.this, LoggedInActivity.class);
                 startActivity(bejelentkez);
-                finish();
 
+                finish();
             }
         }
     });
